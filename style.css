@@ -1,0 +1,61 @@
+/* Box shadow: hoffset v offset blur color||inset */
+.box-1{
+    border:2px solid black;
+    width: 400px;
+    margin: 30px 30px;
+    /* Box shadow: bydefault black color */
+    box-shadow: 10px 10px;
+}
+.box-2{
+    border:2px solid black;
+    width: 400px;
+    margin: 30px 30px;
+    /* Box shadow: bydefault black color
+    red */
+    box-shadow: 10px 10px red;
+}
+.box-3{
+    border:2px solid black;
+    width: 400px;
+    margin: 30px 30px;
+    /* Box shadow: bydefault black color
+    red 
+    blur*/
+    box-shadow: 10px 10px 18px green;
+   
+}
+.box-4{
+    border:2px solid black;
+    width: 400px;
+    margin: 30px 30px;
+    /* Box shadow: bydefault black color
+    red 
+    blur
+    both side*/
+    box-shadow: -10px -10px red,10px 10px yellow;
+   
+}
+.box-5{
+    border:2px solid black;
+    width: 400px;
+    margin: 30px 30px;
+    /* Box shadow: bydefault black color
+    red 
+    blur
+    both side
+    multiple layer*/
+    box-shadow:5px 5px red,10px 10px green,15px 15px blue;
+   
+}
+.box-6{
+    border:2px solid black;
+    width: 400px;
+    margin: 30px 30px;
+    /* Box shadow: bydefault black color
+    red 
+    blur
+    both side
+    multiple layer*/
+    box-shadow:5px 5px red inset,10px 10px green inset,15px 15px blue inset;
+   
+}
